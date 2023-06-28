@@ -1,1 +1,9 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql:skillbox_project"
+    username: skillbox
+    password: skillbox
+  jpa:
+    hibernate:
+      ddl-auto: update
 
