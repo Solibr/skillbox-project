@@ -23,4 +23,10 @@ public class GlobalSetting {
 
     @Column(name = "value", nullable = false)
     private String value;
+
+    public GlobalSetting(GlobalSettingType code, String name, String value) {
+        this.code = code;
+        this.name = name;
+        this.value = value;
+    }
 }
