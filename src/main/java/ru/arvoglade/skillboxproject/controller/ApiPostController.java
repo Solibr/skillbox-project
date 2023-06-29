@@ -1,7 +1,9 @@
 package ru.arvoglade.skillboxproject.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller("/api/post")
+@RestController
+@RequestMapping("/api/post")
 public class ApiPostController {
 }
